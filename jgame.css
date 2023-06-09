@@ -1,106 +1,46 @@
+
+#start{
+    position: center;
+}
 #restart {
     margin: 1.0rem;
   }
   
   
-  /* Style Jeopardy Caption */
   caption {
     font-size: 5vw;
     padding: 0.8rem;
   }
   
   
+  
   th {
     background-color: #115ff4;
-    min-width: 12vw;
-    min-height: 11vh;
+    min-width: 12px;
+    min-height: 11px;
     padding: 0;
   }
   
   
   tr {
     background-color: #115ff4;
-    width: 12vw;
-    height: 13vh;
+    width: 12px;
+    height: 13px;
     padding: 0;
   }
   
   
   td {
     background-color: #115ff4;
-    width: 12vw;
-    height: 10vh;
+    width: 100px;
+    height: 100px;
     padding: 0;
   }
   
   
-  /* misc center class */
   .center {
     margin: auto;
     width: 50%;
     border: 3px solid black;
   }
-  
-  
-  /* css spinner */
-  .spinner {
-    width: 40px;
-    height: 40px;
-    background-color: #333;
-  
-  
-    position: absolute;
-    top: 48%;
-    left: 48%;
-    -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
-    animation: sk-rotateplane 1.2s infinite ease-in-out;
-  }
-  
-  
-  @-webkit-keyframes sk-rotateplane {
-    0% {
-      -webkit-transform: perspective(120px)
-    }
-  
-  
-    50% {
-      -webkit-transform: perspective(120px) rotateY(180deg)
-    }
-  
-  
-    100% {
-      -webkit-transform: perspective(120px) rotateY(180deg) rotateX(180deg)
-    }
-  }
-  
-  
-  @keyframes sk-rotateplane {
-    0% {
-      transform: perspective(120px) rotateX(0deg) rotateY(0deg);
-      -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg)
-    }
-  
-  
-    50% {
-      transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
-      -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg)
-    }
-  
-  
-    100% {
-      transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
-      -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
-    }
-  }
-  
-  
-  .spinner-wrapper {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #ff6347;
-    z-index: 999999;
-  }
-  
+
